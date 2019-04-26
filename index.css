@@ -1,0 +1,168 @@
+.body{
+    margin: 0;
+    height: auto;
+    display: flex;
+    background-size: initial;
+    justify-content: center;
+}
+
+.header{
+
+    height: 103px;
+    width: 960px;
+    margin: 0;
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.header-left{
+
+    padding-top: 7px;
+    width: 556px;
+    display: flex;
+}
+
+.header-right{
+
+    width: 404px;
+    display: block;
+}
+
+.marianne{
+
+    margin-right:24px;
+
+}
+
+.header-top-right{
+
+    width: inherit;
+    height: 27px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.language_selection{
+
+    width: auto;
+    height: 1em;
+    font-size: 11px;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #757575;
+    text-decoration: none;
+
+}
+
+.language_selection:hover{
+
+    width: auto;
+    height: 1em;
+    font-size: 11px;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #757575;
+    text-decoration: underline;
+
+}
+
+.header-bottom-right{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.searchbar_block{
+
+    width: 260px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+
+    border-radius: 10px;
+    background-color: #EFEEEC;
+
+}
+
+.searchbar{
+
+    margin-left: 20px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 0.875em;
+    background-color: #EFEEEC;
+    border: none;
+
+
+}
+
+.network-icons{
+
+    margin-left: 6px;
+    width: 138px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.twitter-icon{
+
+    width: 36px;
+    height: 36px;
+    display: inline;
+    border-radius: 18px;
+    background-color: #757575;
+
+}
+
+.twitter-icon:hover{
+
+    width: 36px;
+    height: 36px;
+    display: inline;
+    border-radius: 18px;
+    background-color: #43C7F7;
+
+}
+
+.facebook-icon{
+
+    width: 36px;
+    height: 36px;
+    display: inline;
+    border-radius: 18px;
+    background-color: #757575;
+
+}
+
+.facebook-icon:hover{
+
+    width: 36px;
+    height: 36px;
+    display: inline;
+    border-radius: 18px;
+    background-color: #4267B2;
+
+}
+.instagram-icon{
+
+    width: 36px;
+    height: 36px;
+    display: inline;
+    border-radius: 18px;
+    background-color: #757575;
+
+}
+
+.instagram-icon:hover{
+
+    width: 36px;
+    height: 36px;
+    display: inline;
+    border-radius: 18px;
+    background-color: #36455C;
+
+}
