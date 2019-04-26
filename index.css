@@ -1,17 +1,16 @@
 .body{
     margin: 0;
-    height: auto;
     display: flex;
-    background-size: initial;
     justify-content: center;
+    flex-flow: column wrap;
 }
 
 .header{
 
     height: 103px;
-    width: 960px;
-    margin: 0;
+    width: auto;
     padding-top: 18px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
@@ -108,7 +107,7 @@
 
 }
 
-.twitter-icon{
+.regular-icon{
 
     width: 36px;
     height: 36px;
@@ -117,52 +116,46 @@
     background-color: #757575;
 
 }
+
+
 
 .twitter-icon:hover{
 
-    width: 36px;
-    height: 36px;
-    display: inline;
-    border-radius: 18px;
     background-color: #43C7F7;
-
-}
-
-.facebook-icon{
-
-    width: 36px;
-    height: 36px;
-    display: inline;
-    border-radius: 18px;
-    background-color: #757575;
 
 }
 
 .facebook-icon:hover{
 
-    width: 36px;
-    height: 36px;
-    display: inline;
-    border-radius: 18px;
     background-color: #4267B2;
-
-}
-.instagram-icon{
-
-    width: 36px;
-    height: 36px;
-    display: inline;
-    border-radius: 18px;
-    background-color: #757575;
 
 }
 
 .instagram-icon:hover{
 
-    width: 36px;
-    height: 36px;
-    display: inline;
-    border-radius: 18px;
     background-color: #36455C;
+
+}
+
+.nav{
+
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+.actus{
+
+    padding: 5px 25px 5px 50px;
+    font-family: "Open Sans", Arial, Sans-Serif;
+    font-size: 15px;
+
+}
+
+.actus:first-line{
+
+    color: #0B6BA8;
 
 }
