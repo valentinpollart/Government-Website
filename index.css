@@ -1,13 +1,14 @@
-.body{
+body {
     margin: 0;
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
+    font-family: "Open Sans", Arial, sans-serif;
+
 }
 
-.header{
-
-    height: 103px;
+.header {
+    height: 85px;
     width: auto;
     padding-top: 18px;
     margin-bottom: 30px;
@@ -16,71 +17,61 @@
     flex-wrap: nowrap;
 }
 
-.header-left{
-
+.header-left {
     padding-top: 7px;
     width: 556px;
     display: flex;
 }
 
-.header-right{
-
+.header-right {
     width: 404px;
     display: block;
 }
 
-.marianne{
-
-    margin-right:24px;
-
+.marianne {
+    margin-right: 24px;
 }
 
-.header-top-right{
-
+.header-top-right {
     width: inherit;
     height: 27px;
     display: flex;
     justify-content: flex-end;
-
 }
 
-.language_selection{
+.language-selection{
+    width: auto;
+    height: 1em;
+    font-size: 11px;
+    font-family: "Open Sans", Arial, Sans-Serif;
+    color: #757575;
+    text-decoration: none;
+}
 
+.language-selection:hover {
     width: auto;
     height: 1em;
     font-size: 11px;
     font-family: "Open Sans", Arial, sans-serif;
     color: #757575;
-    text-decoration: none;
-
-}
-
-.language_selection:hover{
-
     text-decoration: underline;
-
 }
 
-.header-bottom-right{
-
+.header-bottom-right {
     display: flex;
     justify-content: space-between;
-
 }
 
-.searchbar_block{
-
+.searchbar_block {
     width: 260px;
     height: 39px;
     display: flex;
     align-items: center;
-
     border-radius: 10px;
     background-color: #EFEEEC;
-
 }
 
-.searchbar{
+.searchbar {
 
     margin-left: 20px;
     font-family: Georgia, serif;
@@ -92,7 +83,7 @@
 
 }
 
-.network-icons{
+.network-icons {
 
     margin-left: 6px;
     width: 138px;
@@ -102,7 +93,7 @@
 
 }
 
-.regular-icon{
+.regular-icon {
 
     width: 36px;
     height: 36px;
@@ -114,43 +105,105 @@
 
 
 
-.twitter-icon:hover{
-
+.twitter-icon:hover {
     background-color: #43C7F7;
 
 }
 
-.facebook-icon:hover{
+.facebook-icon:hover {
 
     background-color: #4267B2;
 
 }
 
-.instagram-icon:hover{
+.instagram-icon:hover {
 
     background-color: #36455C;
 
 }
 
-.nav{
+.nav {
 
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 10px;
+}
 
+.tab {
+    width: 160px;
+    padding: 5px 25px 5px 50px;
+    font-size: 15px;
+    text-decoration: none;
+    border-right: 1px solid;
+    border-right-color: #EFEEEC;
+}
+
+.tab-title {
+
+    display: block;
+    color: #0B6BA8;
+}
+
+.tab-text{
+    display: inline-block;
+    color: #000000;
 }
 
 .actus{
 
-    padding: 5px 25px 5px 50px;
-    font-family: "Open Sans", Arial, Sans-Serif;
-    font-size: 15px;
+}
+
+.actions {
+
+    margin: 0px 14px;
 
 }
 
-.actus:first-line{
+.gouv {
 
-    color: #0B6BA8;
+    margin-right:14px;
+    padding-left: 55px;
 
+}
+
+.partagez{
+    width: 80px;
+    border-right: none;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: #EFEEEC;
+    padding-top: 40px;
+
+}
+
+.content{
+    width: 960px;
+    background-color: #FFFFFF;
+
+}
+
+.main-title{
+    height: 127px;
+    padding: 50px 120px 10px;
+
+
+}
+
+.main-title-text{
+    padding: 0 0 30px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    line-height: 47px;
+}
+
+.main-title-text::after{
+    background-color: #202328;
+    height: 80px;
+    width: 70px;
 }
