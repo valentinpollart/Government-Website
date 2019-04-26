@@ -57,11 +57,6 @@
 
 .language_selection:hover{
 
-    width: auto;
-    height: 1em;
-    font-size: 11px;
-    font-family: "Open Sans", Arial, sans-serif;
-    color: #757575;
     text-decoration: underline;
 
 }
