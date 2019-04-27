@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="14fd744c-446b-4589-b190-a518a8791f11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="354" lean-forward="true" selection-start-line="354" selection-end-line="354" />
+            <state relative-caret-position="496">
+              <caret line="359" selection-start-line="359" selection-end-line="359" />
             </state>
           </provider>
         </entry>
@@ -130,7 +129,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40646000" />
+    <option name="totallyTimeSpent" value="44010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3907" y="-2" width="1853" height="1082" extended-state="6" />
@@ -172,8 +171,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="354" lean-forward="true" selection-start-line="354" selection-end-line="354" />
+        <state relative-caret-position="496">
+          <caret line="359" selection-start-line="359" selection-end-line="359" />
         </state>
       </provider>
     </entry>

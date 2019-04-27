@@ -274,7 +274,7 @@ body {
 .main-text{
     display: flex;
     flex-direction: column;
-    padding: 25px 120px;
+    padding: 25px 120px 40px;
     font-family: Georgia, serif;
     font-size: 20px;
     line-height: 30px;
@@ -296,7 +296,7 @@ body {
 
 .br{
     display: block;
-    padding-top: 36px;
+    padding-top: 30px;
 }
 
 .paragraph-with-image{
@@ -328,14 +328,14 @@ body {
 }
 
 .bouncing-area{
-    padding: 40px 0 20px;
+    padding: 50px 0 20px;
     background-color: #0B6BA8;
 }
 
 .bouncing-area-limiter{
     margin: auto;
     width: 70px;
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 1px solid #CCCECF;
 }
 
 .bouncing-area-title{
@@ -345,19 +345,20 @@ body {
     text-align: center;
     text-transform: uppercase;
     line-height: 33px;
+    font-weight: 200;
 }
 
 .heading-news{
     display: flex;
     justify-content: center;
-    margin: 30px 15px 30px;
 }
 
 .heading-news-article{
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: #FFFFFF;
     width: 465px;
-
+    margin: 30px 15px 20px;
 }
 
 .heading-news-article-image{
@@ -366,7 +367,8 @@ body {
 }
 
 .heading-news-article-text{
-    padding: 20px 40px 25px;
+    margin-bottom: 10px;
+    padding: 30px 40px 25px;
     font-size: 22px;
     line-height: 25px;
     color: #202328;
@@ -376,5 +378,5 @@ body {
 }
 
 .heading-news-article-text:hover{
-    text-decoration: ;
+    text-decoration: underline;
 }
