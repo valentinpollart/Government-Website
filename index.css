@@ -328,7 +328,10 @@ body {
 }
 
 .bouncing-area{
-    padding: 50px 0 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0 30px;
     background-color: #0B6BA8;
 }
 
@@ -351,6 +354,7 @@ body {
 .heading-news{
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .heading-news-article{
@@ -379,4 +383,121 @@ body {
 
 .heading-news-article-text:hover{
     text-decoration: underline;
+}
+
+.bouncing-button {
+    display: flex;
+    width: 235px;
+    height: 44px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #052E48;
+    border-radius: 22px;
+    font-size: 16px;
+    font-family: Georgia, serif;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #202328;
+    font-family: Georgia, serif;
+}
+
+.footer-main-image{
+    margin: 25px 0;
+}
+
+.footer-main-separator{
+    margin-bottom: 15px;
+    width: 460px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer-bottom{
+    display: flex;
+}
+
+.footer-bottom-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+}
+
+.footer-bottom-left-image{
+    margin: 15px 0 20px;
+}
+
+.dark-grey-text{
+    color: #9E9D9A;
+}
+
+.footer-slogan{
+    margin-bottom: 25px;
+}
+
+.footer-creative-commons{
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-style: italic;
+    line-height: 24px;
+}
+
+.footer-networks{
+    display: flex;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.big-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #B5B5B5;
+}
+
+.big-logo{
+    width: 20px;
+    height: 20px;
+    color: #202328;
+}
+
+.light-grey-links{
+    padding: 5px 0;
+    color: #B5B5B5;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.light-grey-links:hover{
+    text-decoration: underline;
+}
+
+.footer-bottom-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.footer-bottom-right-title{
+    width: 630px;
+    margin-bottom: 10px;
+    padding:16px 0 8px ;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #8D8C89;
+    border-bottom: 1px solid #313438;
 }
